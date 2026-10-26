@@ -21,6 +21,19 @@ body,html{
   background: rgb(94, 92, 92);
   border-radius: 12px;
   text-align: center;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.cards .card .card-header{
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  grid-row: 1;
+}
+
+.card-header p{
+  font-size: 50px;
 }
 
 .projects-heading-container{

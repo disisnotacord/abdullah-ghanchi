@@ -109,23 +109,25 @@ body,html{
   width: 100%;
 }
 
-.about-me-video{
-  min-height: 50vh;
+.about-me-text{
+  min-height: 85.8vh;
   width: 99.6vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 15px 5px 5px rgba(0,0,0,0.3);
-  
+  align-items: top;
+  padding-top: 30px;
+  justify-content: left;
+  padding-left: 70px;
+  box-shadow: 15px 10px 5px rgba(0,0,0,0.3);
+  outline: 2px solid black;
+  border-radius: 12px;
+  background-color: gray;
 }
 
-.about-me-video video{
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  border: 15px dashed black; 
+.about-me-text p{
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .about-me-heading{
   display: flex;

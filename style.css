@@ -19,7 +19,7 @@ body,html{
   box-shadow: 15px 5px 5px 0 rgba(0, 0, 0, 0.3);
   padding: 20px;
   background: rgb(94, 92, 92);
-  border-radius: 8px;
+  border-radius: 12px;
   text-align: center;
 }
 
@@ -47,6 +47,7 @@ body,html{
 .card,#scanore,#wapfare,#bruted{
   font-size: 30px;
   color: white;
+  min-height: 92vh;
 }
 
 
